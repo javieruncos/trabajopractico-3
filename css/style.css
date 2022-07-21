@@ -1,0 +1,12 @@
+
+table{
+    margin-top: 20px;
+}
+
+
+td {
+    border: solid 2px blue;
+    padding: 5px;
+    text-align: center;
+    
+}
