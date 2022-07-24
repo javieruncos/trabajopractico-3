@@ -9,9 +9,12 @@ function cadena (texto){
     for(let i = 0; i<texto.length;i++){
         if(letras.indexOf(texto[i]) !=  -1){
            console.log("contiene mayusculas")
+           break
             
         }else{
-            console.log( "contiene solo minusculas")
+            // console.log( "contiene solo minusculas")
+            document.write( "contiene solo minusculas")
+            break
 
         }
 
@@ -23,4 +26,9 @@ function cadena (texto){
 }
 
 
-(cadena("hola"))
+(cadena("Hola"))
+
+
+
+
+
