@@ -2,20 +2,55 @@
 
 let numeros = parseInt(prompt('ingresa un numero'));
 
-function nombre(numeros){
+function nombre(){
 
     if(numeros % 2 === 0){
         document.write("el numero ingresado es par")
+    }else if(isNaN(numeros)){
+        alert("no valido")
+
     }else{
         document.write("el numero ingresado es inpar")
     }
     
-    while(isNaN(numeros)){
-        alert('no valido')
-        break
-    }
+ 
 }
 
 
-nombre(numeros);
+nombre();
 
+
+
+
+// ejemplo numero 2
+
+// function numeros (){
+
+//         for(let i = 0 ; i < 5;i++){
+//            let numero=parseInt(prompt('ingresa un numero'));
+//              if(numero % 2 === 0){
+//         document.write("el numero ingresado es par: " + (numero)  + "<br>")
+//      }else if(isNaN(numero)){
+//         document.write("no valido")
+//         break
+//      }else{
+//         document.write("el numero ingresado es inpar: " + (numero)  +"<br>")
+//      }
+
+//      if(confirm('desea ingresar otro numero')){
+        
+//      }else{
+//        break
+//      }
+    
+//     while(isNaN(numero)){
+//         alert('no valido')
+//         break
+//     }
+//         }
+
+
+    
+//     }
+
+// numeros()
