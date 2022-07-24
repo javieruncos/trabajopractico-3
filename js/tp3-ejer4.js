@@ -22,7 +22,7 @@ nombre();
 
 
 
-// ejemplo numero 2
+// ejemplo numero 2 en bucle
 
 // function numeros (){
 
@@ -43,10 +43,7 @@ nombre();
 //        break
 //      }
     
-//     while(isNaN(numero)){
-//         alert('no valido')
-//         break
-//     }
+//   
 //         }
 
 
@@ -54,3 +51,24 @@ nombre();
 //     }
 
 // numeros()
+
+
+
+
+
+// ejemplo numero 3
+
+// function parOinpar (numero){
+//     if(numero % 2 === 0){
+//                 document.write("el numero ingresado es par: " + (numero)  + "<br>")
+//              }else if(isNaN(numero)){
+              
+//              }else{
+//                 document.write("el numero ingresado es inpar: " + (numero)  +"<br>")
+//              }
+                 
+
+// }
+
+
+// parOinpar(6)
